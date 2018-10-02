@@ -1,5 +1,5 @@
 export class UrlGenerator {
-    public sex(): string {
-        return 'sex';
+    public build(): string {
+        return 'some url';
     }
 }
