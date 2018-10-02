@@ -1,3 +1,5 @@
+import * as Interfaces from '../core/interfaces'
+
 export class DashService {
     constructor() {
     }

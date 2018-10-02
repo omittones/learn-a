@@ -1,4 +1,4 @@
-import { UrlGenerator } from '../core/core'
+import { UrlGenerator } from '../core/generators'
 
 export class DashApp {
     private generator: UrlGenerator;
