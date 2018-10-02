@@ -1,0 +1,9 @@
+{
+    "extends": "../tsconfig.global.json",
+    "compilerOptions": {
+        "composite": true
+    },
+    "files": [
+        "./core.ts"
+    ]
+}

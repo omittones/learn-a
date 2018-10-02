@@ -1,0 +1,15 @@
+{
+    "extends": "../tsconfig.global.json",
+    "compilerOptions": {
+        "composite": true
+    },
+    "references": [
+       {
+           "path": "../core"
+       }
+    ],
+    "files": [
+        "./dashboard.app.ts",
+        "./dashboard.service.ts"
+    ]
+}
