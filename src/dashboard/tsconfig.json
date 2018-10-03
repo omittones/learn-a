@@ -1,7 +1,7 @@
 {
     "extends": "../tsconfig.global.json",
     "compilerOptions": {
-        "outFile": "../dist/dashboard.js",
+        "outFile": "../../dist/dashboard.js",
         "composite": true
     },
     "references": [
