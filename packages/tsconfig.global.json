@@ -3,7 +3,12 @@
         "target": "es5",
         "module": "amd",
         "declaration": true,
+        "declarationMap": true,
         "strict": true,
-        "inlineSourceMap": true
-    }
+        "inlineSourceMap": true,
+        "composite": true
+    },
+    "include": [
+        "./dist/*.d.ts"
+    ]
 }

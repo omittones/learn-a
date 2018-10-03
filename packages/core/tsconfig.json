@@ -1,7 +1,8 @@
 {
     "extends": "../tsconfig.global.json",
     "compilerOptions": {
-        "outFile": "../dist/core.js"
+        "outFile": "../dist/core.js",
+        "composite": true
     },
     "files": [
         "./generators.ts",
