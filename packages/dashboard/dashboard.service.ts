@@ -3,7 +3,7 @@ import * as Interfaces from 'interfaces'
 export class DashService {
     constructor() {
     }
-    public sayHello():string {
+    public sayHello(v: Interfaces.SomeEnum) : string {
         let dto : Interfaces.ISomeDto = {
             index: 1,
             word: 'mum'

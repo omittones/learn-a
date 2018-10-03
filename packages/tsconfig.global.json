@@ -7,8 +7,5 @@
         "strict": true,
         "inlineSourceMap": true,
         "composite": true
-    },
-    "include": [
-        "./dist/*.d.ts"
-    ]
+    }
 }
