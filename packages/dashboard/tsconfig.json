@@ -1,15 +1,10 @@
 {
     "extends": "../tsconfig.global.json",
     "compilerOptions": {
-        "composite": true,
         "outFile": "../dist/dashboard.js"
     },
-    "references": [
-       {
-           "path": "../core"
-       }
-    ],
     "files": [
+        "../dist/core.d.ts",
         "./dashboard.app.ts",
         "./dashboard.service.ts"
     ]

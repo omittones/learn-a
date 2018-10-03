@@ -1,9 +1,13 @@
-import * as Interfaces from '../core/interfaces'
+import * as Interfaces from 'interfaces'
 
 export class DashService {
     constructor() {
     }
     public sayHello():string {
-        return 'hello';
+        let dto : Interfaces.ISomeDto = {
+            index: 1,
+            word: 'mum'
+        };
+        return 'hello ' + dto.word;
     }
 }
